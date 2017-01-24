@@ -66,8 +66,8 @@ echo "<form action='app.php' method='post'>{$f}</form>";
 		<div class='form_field email'><input id="field_email" name="email" title="Email Address" type="text" class="mandatory input" placeholder="user@company.com" /></div>
 	</div>
 	<div class='form_row telephone'>
-		<div class='form_caption telephone'><span class="mandatory">Mobile / Telephone</span></div>
-		<div class='form_field telephone'><input id="field_telephone" name="telephone" title="Mobile / Telephone" type="text" class="mandatory input" /></div>
+		<div class='form_caption telephone'><span>Mobile / Telephone</span></div>
+		<div class='form_field telephone'><input id="field_telephone" name="telephone" title="Mobile / Telephone" type="text" class="input" /></div>
 	</div>
 	<div class='form_row opt1'>
 		<div class='form_caption opt1'><span class="mandatory">Radio options</span></div>
