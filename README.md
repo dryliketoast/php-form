@@ -1,6 +1,8 @@
 # php-form
 the amazing HTML form building class
 
+
+### A simple example
 ```
 // define dropdown/radio/checkbox options
 $dropdown_salutation = array(''=>'[Please select]','Mr'=>'Mr','Mrs'=>'Mrs','Ms'=>'Ms','Dr'=>'Dr','Prof.'=>'Prof.');
@@ -36,6 +38,7 @@ $f->set_mandatory('telephone',false);
 echo "<form action='app.php' method='post'>{$f}</form>";
 ```
 
+### Output
 ```
 <form action='app.php' method='post'>
 <div class='form delegate'>
